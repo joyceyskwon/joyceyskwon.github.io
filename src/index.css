@@ -1,19 +1,25 @@
-body {
-  margin: 0;
+.homepage {
   height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.intro {
+  max-width: 41rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.subtext {
   padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 1.7;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 26px;
-}
-
-.intro {
-  padding: 100px;
-  padding-left: 350px;
-  padding-right: 350px;
 }
 
 a {
