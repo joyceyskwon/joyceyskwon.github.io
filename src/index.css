@@ -1,3 +1,11 @@
+body {
+  background-color: #1D4EF0;
+}
+
+p {
+  color: #fff;
+}
+
 .homepage {
   height: 100vh;
   justify-content: center;
@@ -15,15 +23,16 @@
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 1.7;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: serenity, sans-serif;
+  font-weight: 500;
+  font-style: italic;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 26px;
 }
 
 a {
-  color : #f44336;
+  color : #FFA42E;
   text-decoration: none;
   cursor: url("./images/icon.png"), pointer;
 }
