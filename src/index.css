@@ -1,5 +1,5 @@
 body {
-  background-color: #1D4EF0;
+  background-color: #1d4ef0;
 }
 
 p {
@@ -32,12 +32,25 @@ p {
 }
 
 a {
-  color : #FFA42E;
+  color: #ffa42e;
   text-decoration: none;
-  cursor: url("./images/icon.png"), pointer;
+}
+
+a:hover {
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.dog-text-art {
+  width: 350px;
+  /* user-drag: none; */
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
